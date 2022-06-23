@@ -171,7 +171,8 @@ def plot_example_configuration(start_angles, end_angles, rho_1d, dens_1d):
     exclude_indices = np.where(rho_all.flatten() > 1)
     chord_lengths[:, exclude_indices] = 0  # Remove the points outside the plasma boundary
     response = compute_response_matrix(chord_lengths, rho_all.flatten(), rho_1d)
-    lid = np.matmul(response, dens_1d)
+    # matrix mutplication still need error 
+    lid = np.matmul(response, dens_1d)# random.randn(xxx) then calc likelihood
     print(lid)
     channel = np.arange(1, num_los + 1)
 
@@ -209,6 +210,10 @@ def plot_example_configuration(start_angles, end_angles, rho_1d, dens_1d):
 
 
 if __name__ == '__main__':
+    #rho_1d: coordinates of the density profile, calculated from mag flux function 0 to 1 normalised radius for vector radius 
+    #dens_1d: electron density profile, parabolic function
     rho_1d = np.linspace(0.0, 1.0, 101)
     dens_1d = (1 - rho_1d**2) * 4.0
+    #here we determine the locations of the lines of sight (start point and end point as the angles)
+    #our measured data is the calculated signals ie right plot
     plot_example_configuration([0, 0, 0.5 * np.pi], [np.pi, 1.25 * np.pi, 1.5 * np.pi], rho_1d, dens_1d)
