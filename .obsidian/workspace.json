@@ -28,6 +28,18 @@
             }
           },
           {
+            "id": "8abe82b12a2fb8da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f1bb95ac79d3ebf5",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/astat_banner.png",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/astat_banner.png",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "images/astat_banner.png"
+                "file": "README.md"
               }
             }
           }
@@ -171,10 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22207be5cc27dbb9",
+  "active": "8abe82b12a2fb8da",
   "lastOpenFiles": [
-    "README.md",
     "images/astat_banner.png",
+    "README.md",
+    "Untitled",
+    "README.md",
     "images",
     "papers/[Paper][RSI][2008]Bayesian experimental design of a multichannel interferometer for Wendelstein 7-X_H. Dreier.pdf",
     "older_code",
