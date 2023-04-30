@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "e995fe3f9356f78f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc5363d0568164c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89b0a188735b805c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "papers/[Paper][RSI][2008]Bayesian experimental design of a multichannel interferometer for Wendelstein 7-X_H. Dreier.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e14c41725a1a83c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e073759d0fa322c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22207be5cc27dbb9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2be2844df9cf8c6d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "845c70d993770a5a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f051827c4580e450",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4f92eac1435580a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3176d34a526176c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "papers/[Paper][RSI][2008]Bayesian experimental design of a multichannel interferometer for Wendelstein 7-X_H. Dreier.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b7c6a9ab4ebde635",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "papers/[Paper][RSI][2008]Bayesian experimental design of a multichannel interferometer for Wendelstein 7-X_H. Dreier.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d154cc63e6e1d5e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "722f422c2ef352c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "papers/[Paper][RSI][2008]Bayesian experimental design of a multichannel interferometer for Wendelstein 7-X_H. Dreier.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "22207be5cc27dbb9",
+  "lastOpenFiles": [
+    "older_code",
+    "BayesianExperimentalDesignF (1).ipynb",
+    "papers"
+  ]
+}
